@@ -2,43 +2,55 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Достижения Игоря</title>
+    <title>Достижения</title>
 </head>
 <body style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; background: #f4f7fb; margin: 0; padding: 20px; display: flex; justify-content: center;">
     <div style="max-width: 1000px; background: white; border-radius: 24px; padding: 50px; box-shadow: 0 8px 24px rgba(0,0,0,0.05);">
         
-        <div style="display: flex; gap: 25px; justify-content: center; margin-bottom: 50px;">
-            <a href="index.html" style="color: #2563eb; text-decoration: none; padding: 8px 16px;">Обо мне</a>
-            <a href="interests.html" style="color: #2563eb; text-decoration: none; padding: 8px 16px;">Интересы</a>
-            <a href="achievements.html" style="color: #2563eb; text-decoration: none; font-weight: 600; background: #dbeafe; border-radius: 40px; padding: 8px 16px;">Достижения</a>
-            <a href="contacts.html" style="color: #2563eb; text-decoration: none; padding: 8px 16px;">Контакты</a>
-        </div>
+        <table style="width: 100%; border-collapse: collapse; background: #f8fafc; border-radius: 60px; overflow: hidden; margin-bottom: 40px; table-layout: fixed;">
+            <tr style="text-align: center;">
+                <td style="width: 20%; padding: 0; border-right: 2px solid #9bb7e0;"><a href="index.html" style="color: #2563eb; text-decoration: none; display: block; padding: 12px;">Обо мне</a></td>
+                <td style="width: 20%; padding: 0; border-right: 2px solid #9bb7e0;"><a href="interests.html" style="color: #2563eb; text-decoration: none; display: block; padding: 12px;">Интересы</a></td>
+                <td style="width: 20%; padding: 0; border-right: 2px solid #9bb7e0;"><a href="culture.html" style="color: #2563eb; text-decoration: none; display: block; padding: 12px;">Культура</a></td>
+                <td style="width: 20%; padding: 0; background: #dbeafe; border-right: 2px solid #9bb7e0;"><a href="achievements.html" style="color: #2563eb; text-decoration: none; display: block; padding: 12px;">Достижения</a></td>
+                <td style="width: 20%; padding: 0;"><a href="contacts.html" style="color: #2563eb; text-decoration: none; display: block; padding: 12px;">Контакты</a></td>
+            </tr>
+        </table>
 
         <h1 style="font-size: 42px; color: #0b1120;">Чего достиг и планы</h1>
 
         <div style="background: #f8fafc; border-radius: 24px; padding: 30px; margin-bottom: 30px;">
             <h2>Мои Telegram‑боты</h2>
-            <p><strong>Текстовая RPG-игра:</strong> бот с локациями, монстрами, инвентарём, системой уровней, навыков. Игрок перемещается по локациям, сражается с мобами(монстрами, разбойниками и т.д.). 
-                Если буду развивать бот то обязательно добавлю простой сюжет, механику фракций, квестов, механику питомцев, более сложную экономику. Но пока что мне лень и мало время на реализацию этого.</p>
+            <p><strong>Текстовая RPG-игра:</strong> бот с локациями, монстрами, инвентарём, системой уровней, навыков. Игрок перемещается по локациям, сражается с мобами (монстрами, разбойниками и т.д.). 
+                Если буду развивать бот, то обязательно добавлю простой сюжет, механику фракций, квестов, механику питомцев, более сложную экономику. Но пока что мне лень и мало времени на реализацию этого.</p>
             <p><strong>GeoGuessr-бот:</strong> бот для угадывания стран по фото. Есть система жизней, магазин, подсказки, личная и глобальная статистика. 
                 Сделал два режима: короткий, в котором статистика подсчитывается по более простой модели и соревновательный, в котором статистика ведётся так что бы объективно оценить игрока.
-                В планах добавить больше локаций, пока их всего 20. Если бы сервисы Google не были ограничины в Росии, можно было бы добавить мини приложение в бота для просмотра местости по полноценной панораме, а не фотографии с ней.
+                В планах добавить больше локаций, пока их всего 20. Если бы сервисы Google не были ограничены в России, можно было бы добавить мини приложение в бота для просмотра местности по полноценной панораме, а не фотографии с ней.
                 Доделать таблицу лидеров по очкам и добавить новые режимы игры. Переделать нынешнюю систему оценивания в более сложную которая будет оценивать местность скорость ответа и точность.</p>
         </div>
 
         <div style="background: #f8fafc; border-radius: 24px; padding: 30px; margin-bottom: 30px;">
-            <h2>Симрейсинг</h2>
-            <p>Участвую в любительских онлайн‑чемпионатах. Лучший результат — финиширование на 6-ом месте, стартовав с 14-го в 6-часовой гонке в iRacing на пару с другом. Конесно были и победы но как по мне поднятся на 8 позиций в долгой гонке это более тяжёлый результат.</p>
+            <div style="display: flex; gap: 30px; align-items: flex-start;">
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <img src="images/old_wheel.jpg" alt="Мой старый руль" style="width: 320px; height: 200px; object-fit: cover; border-radius: 20px;">
+                    <p style="margin: 0; font-size: 14px; color: #4b5563; text-align: center;">На этом руле проехал свою лучшую гонку</p>
+                </div>
+                <div style="flex: 1;">
+                    <h2 style="margin: 0 0 8px;">Симрейсинг</h2>
+                    <p>Участвую в любительских онлайн‑чемпионатах. Лучший результат — финиширование на 6-ом месте, стартовав с 14-го в 6-часовой гонке в iRacing на пару с другом. 
+                        Конечно, были и победы, но, как по мне, подняться на 8 позиций в долгой гонке — это более тяжёлый результат.</p>
+                </div>
+            </div>
         </div>
 
         <div style="background: #f8fafc; border-radius: 24px; padding: 30px; margin-bottom: 30px;">
             <h2>Велоспорт</h2>
-            <p>Особых достижений нету т.к. не участвовал в соревнованиях или в долгих спринтах, но за раз проезжал большое расстояние — 45км между населёнными пунктами</p>
+            <p>Особых достижений нет т.к. не участвовал в соревнованиях или в долгих спринтах, но за раз проезжал большое расстояние — 45 км между населёнными пунктами</p>
         </div>
 
         <div style="background: #f8fafc; border-radius: 24px; padding: 30px;">
             <h2>Учёба</h2>
-            <p>1 курс СГПЭК по специальности «Системное администрирование». Пока в основном идёт школьная программа, а всё, что связано с программированием и администрированием , изучаю самостоятельно дома. Иногда пересекается с учёбой, но чаще — параллельно.</p>
+            <p>1 курс СГПЭК по специальности «Системное администрирование». Пока в основном идёт школьная программа, а всё, что связано с программированием и администрированием, изучаю самостоятельно дома. Иногда пересекается с учёбой, но чаще — параллельно.</p>
         </div>
 
         <p style="text-align: center; margin-top: 50px;">© 2026</p>
